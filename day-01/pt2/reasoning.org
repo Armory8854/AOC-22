@@ -1,0 +1,2 @@
+- This will be much more straightforward compared to tackling the last problem. Simply find the top 3 elves then add together their calories
+  + Multiple methods found [[https://www.geeksforgeeks.org/python-program-to-find-the-highest-3-values-in-a-dictionary/][here]].
