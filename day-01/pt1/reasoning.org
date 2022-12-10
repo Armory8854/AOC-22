@@ -1,0 +1,15 @@
+* Brainstorming pre code
+- I have to iterate over the set of numbers line-by-line, which I am familiar with.
+- However, this problem introduces a few new problems I've yet to encounter in Python
+  1. How do I break iterating over each break in the sequence of numbers (blank new lines)
+  2. How do I assign each group of numbers inbetween the blank new lines to a unique variable
+     - Alternatively, how do I just assign the totals to new variables?
+     - Apparently I *do not* want to iteratively assign new variables for some reason I don't understand involving global variables.
+       + The proper solution is using a *dictionary*
+     - I've discovered that I can not only [[https://stackoverflow.com/questions/35025705/how-do-i-count-the-number-of-blank-lines-in-a-text-file][count all blank newlines]], I can [[https://tutorial.eyehunts.com/python/python-add-to-dict-in-a-loop-adding-item-to-dictionary-within-loop-example/][use that as a number for a range of all elves]]
+  3. How do I sort them *properly* from lowest to highest?
+     - I say this because the standard `.sort` property does not account for different digit combinations
+       + I.E. 1450 is higher than 14049 for some reason?
+         * Double check this with a more sound mind & less distractions.
+  4. How do I output only the highest number?
+     - Not 100% necessary, but would make things nicer.
